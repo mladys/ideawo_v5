@@ -1,0 +1,68 @@
+.introduction {
+  margin: 70px auto;
+}
+
+.intro_box h4 {
+  font-size: 15px;
+  color: violet;
+}
+
+.intro_box {
+  padding-right: 30px;
+}
+
+.intro_box h2 {
+  color: #1F487E;
+  font-size: 29px;
+  font-weight: 6000;
+  font-size: 75px;
+  line-height: 60px;
+  margin-bottom: 35px;
+}
+
+.intro_paragraph {
+  margin: 15px 0;
+  color: gray;
+
+}
+
+.intro_pic img {
+  border-radius: 3px;
+}
+
+.btn_dark {
+  position: relative;
+  z-index: 50;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  padding: 5px 20px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.btn_dark:hover {
+
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  margin: 0;
+  opacity: 0.7;
+}
+
+@media (max-width: 420px) {
+  .intro_pic img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 380px)

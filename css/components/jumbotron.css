@@ -1,0 +1,9 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+
+.jumbotron {
+  background-color: transparent;
+  margin: 0;
+  margin-top: 130px;
+  padding: 0;
+}

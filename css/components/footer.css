@@ -1,0 +1,22 @@
+.page-footer {
+  background-color: #B2C1ED;
+  color: white;
+}
+
+.page-footer a {
+  color: white;
+  transition: 0.3s;
+}
+
+.page-footer a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.footer_logo {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+

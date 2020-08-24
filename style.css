@@ -1,0 +1,70 @@
+@import url('css/components/card_set.css');
+@import url('css/components/services_and_offerings.css');
+@import url('css/components/header.css');
+@import url('css/components/block_section.css');
+@import url('css/components/navbar.css');
+@import url('css/components/card_steps.css');
+@import url('css/components/usp_block.css');
+@import url('css/components/so_block.css');
+@import url('css/components/footer.css');
+@import url('css/components/introduction.css');
+@import url('css/components/jumbotron.css');
+@import url('css/components/splitter.css');
+
+
+* {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.text_split {
+  height: 5px;
+  width: 100px;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  border-radius: 5px;
+}
+
+.break_sm {
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

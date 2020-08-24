@@ -1,0 +1,83 @@
+.usp_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.usp_list {
+  margin: 80px auto;
+}
+
+.usp_card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 2 324px;
+    flex: 1 2 324px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: -1px 0 0 -1px;
+    padding: 40px;
+    color: #1F487E;
+    text-decoration: none;
+    background: #FCFAFA;
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    /*background-color: #FCFAFA;*/
+}
+
+.usp_title {
+  margin: 70px auto;
+
+}
+
+.usp_card:hover {
+  background-color: #F4F4F8;
+  transition: background .3s;
+}
+
+.usp_card_borderless {
+      border-left: 0px transparent;
+}
+
+.usp_card .usp_box_icon {
+  width: 63px;
+  height: 63px;
+}
+
+.usp_box_icon1 {
+  background-image: url('https://frontier-assets.toptal.com/3f9a71c3a5bd85a2feb4e9f53c9f8e49.svg');
+}
+
+.usp_box_icon2 {
+  background-image: url('https://frontier-assets.toptal.com/5a0722a9cedaf69f3a7689fbe977f309.svg');
+}
+
+.usp_box_icon3 {
+  background-image: url('https://frontier-assets.toptal.com/591387664d76ee1ffde7736696c3c5cc.svg');
+}
+
+.usp_card .usp_card_title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.usp_card p {
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 0;
+}
